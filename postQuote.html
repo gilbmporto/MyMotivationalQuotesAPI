@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gil Quote API</title>
+    <link href="./styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+    </style>
+    <script src="./scripts.js" defer></script>
+    <script src="./addNewQuote.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./postQuote.html">Post New Quote</a>
+        <a href="https://github.com/gilbmporto">About Me</a>
+        <a href="https://github.com/gilbmporto?tab=repositories">Other Projects</a>
+    </nav>
+    <header>
+        <h1>Post a New Quote Here</h1>
+    </header>
+    <main class="main">
+        <div class="normalDiv">
+            <label for="newQuoteText">New Quote Here:</label>
+            <input type="text" name="newQuoteText" id="newQuoteText">
+        </div>
+        <div class="normalDiv">
+            <label for="newPersonName">New Author Here:</label>
+            <input type="text" name="newPersonName" id="newPersonName">
+        </div>
+        <div class="normalDiv">
+            <button class="getBtn" id="postIt">Post it</button>
+        </div>
+        <div class="displayDiv" id="divWhereItHappens2">
+        </div>
+    </main>
+</body>
+</html>

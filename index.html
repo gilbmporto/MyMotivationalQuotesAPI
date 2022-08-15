@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gil Quote API</title>
+    <link href="./styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+    </style>
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./postQuote.html">Post New Quote</a>
+        <a href="https://github.com/gilbmporto">About Me</a>
+        <a href="https://github.com/gilbmporto?tab=repositories">Other Projects</a>
+    </nav>
+    <header>
+        <h1>Gil's Inspirational Quotes</h1>
+    </header>
+    <main class="main">
+        <div class="normalDiv">
+            <button class="getBtn" id="getRandomQuoteBtn">Get Random Quote</button>
+            <button class="getBtn" id="getAllQuotesBtn">See All Quotes</button>
+        </div>
+        <div class="normalDiv">
+                <input type="text" name="personName" id="personName" value="">
+                <button class="getBtn" id="getQuoteByPersonNameBtn">Get Quote by Name</button>
+        </div>
+        <div class="displayDiv" id="divWhereItHappens"></div>
+    </main>
+</body>
+</html>
